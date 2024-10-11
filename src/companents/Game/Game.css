@@ -1,0 +1,20 @@
+.all-game-page{
+  background: #E4E4E4;
+  height: 100%;
+  gap: 40px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  padding: 30px 130px 0px 130px;
+}
+
+.title-text{
+  padding-top: 50px;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
