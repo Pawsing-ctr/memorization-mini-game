@@ -1,5 +1,7 @@
+import { StatusesEnum } from "../constants/statuses";
+
 export interface ICard {
   id: number;
   src: string;
-  stat: string;
+  stat: StatusesEnum | null;
 }
