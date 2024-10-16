@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import { ICard } from "../../types/types";
 import "./Card.css";
 

@@ -61,24 +61,24 @@ export const card: ICard[] = [
     src: "../card-img/Ranunculus.png",
     stat: null,
   },
-  // {
-  //   id: 7,
-  //   src: "../card-img/Romashka.png",
-  //   stat: null,
-  // },
-  // {
-  //   id: 7,
-  //   src: "../card-img/Romashka.png",
-  //   stat: null,
-  // },
-  // {
-  //   id: 8,
-  //   src: "../card-img/Roza.png",
-  //   stat: null,
-  // },
-  // {
-  //   id: 8,
-  //   src: "../card-img/Roza.png",
-  //   stat: null,
-  // },
-].sort(() => Math.random() - 0.5);
+  {
+    id: 7,
+    src: "../card-img/Romashka.png",
+    stat: null,
+  },
+  {
+    id: 7,
+    src: "../card-img/Romashka.png",
+    stat: null,
+  },
+  {
+    id: 8,
+    src: "../card-img/Roza.png",
+    stat: null,
+  },
+  {
+    id: 8,
+    src: "../card-img/Roza.png",
+    stat: null,
+  },
+];

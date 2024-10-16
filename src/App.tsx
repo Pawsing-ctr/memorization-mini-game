@@ -4,11 +4,11 @@ import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="app">
-        <Body />
-      </div>
-    </BrowserRouter>
+    // <BrowserRouter>
+    <div className="app">
+      <Body />
+    </div>
+    // </BrowserRouter>
   );
 }
 

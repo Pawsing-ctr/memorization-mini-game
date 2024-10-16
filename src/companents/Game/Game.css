@@ -8,16 +8,13 @@
   padding: 30px 130px 0px 130px;
 }
 
-.title-text{
-  padding-top: 50px;
-}
-
 .cards{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   gap: 40px;
 }
+
 .modal-overlay{
   position: fixed;
   top: 0;
@@ -29,4 +26,20 @@
   justify-content: center;
   align-items: center;
   z-index: 2;
+}
+
+.modal{
+  background: white;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  padding: 32px;
+  justify-content: center;
+  gap: 42px;
+  z-index: 10000;
+  flex-direction: column;
+  align-items: center;
 }

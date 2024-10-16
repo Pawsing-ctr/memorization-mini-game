@@ -4,6 +4,7 @@
   transition: transform 0.5s;
   transform: scale(0);
   animation: 2s hideImage linear;
+  width: 310px;
 }
 
 @keyframes hideImage{
@@ -24,7 +25,7 @@
   transform: rotateY(180deg);
   animation: 2s hideCard linear;  
   transition: transform 0.5s;
-  flex: 1 1 20%;
+  /* flex: 1 1 20%; */
 }
 
 @keyframes hideCard{
